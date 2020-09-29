@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="pathToConfigFileJava" value="D:/workcode/neimeng/codeStyle/Java-Formatter.xml" />
+        <option name="selectedJavaProfile" value="ZTEsoft" />
+      </ProjectSpecificProfile>
+    </option>
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1555482574940" />
+        <option name="name" value="new (1)" />
+        <option name="pathToConfigFileJava" value="D:/workcode/neimeng/codeStyle/Java-Formatter.xml" />
+        <option name="selectedJavaProfile" value="ZTEsoft" />
+      </Settings>
+    </option>
+  </component>
+</project>

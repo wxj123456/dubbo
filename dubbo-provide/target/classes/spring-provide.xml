@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 应用配置 -->
+    <dubbo:application name="simple-server"></dubbo:application>
+    <!-- 协议配置 -->
+    <dubbo:protocol name="dubbo" port="-1"></dubbo:protocol>
+
+    <dubbo:registry address="multicast://224.1.2.3:1111"></dubbo:registry>
+
+    <!-- 服务配置 -->
+    <dubbo:service interface="com.dubbo.services.UserService" ref="userService"></dubbo:service>
+
+    <bean name="userService" class="com.dubbo.service.impl.UserServiceImpl"></bean>
+
+</beans>
